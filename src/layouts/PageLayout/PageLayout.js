@@ -9,6 +9,8 @@ export const PageLayout = ({ children }) => (
     <IndexLink to='/' activeClassName='page-layout__nav-item--active'>Home</IndexLink>
     {' · '}
     <Link to='/counter' activeClassName='page-layout__nav-item--active'>Counter</Link>
+    {' · '}
+    <Link to='/chart' activeClassName='page-layout__nav-item--active'>Chart</Link>
     <div className='page-layout__viewport'>
       {children}
     </div>
